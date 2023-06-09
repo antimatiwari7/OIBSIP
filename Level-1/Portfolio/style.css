@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    /* border-line: 20px; */
+
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li: hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+
+    max-width: 1300px;
+    max-height: 900px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+
+    margin-left: 80%%;
+    margin-right: 20%;
+}
+
+.col-2 h1 {
+    font-size: 60px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.col-2 img {
+    margin-left: 50%;
+    min-width: 50px;
+    min-height: 50px;
+    height: 21em;
+
+
+
+}
+
+.header {
+    background: radial-gradient(#fff.#fd6d6d)
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: #565656;
+}
+
+.logo img {
+
+    height: 60px;
+
+
+}
+
+.categories {
+    margin: 70px 0;
+
+}
+
+.col-3 {
+
+    margin-left: 80%%;
+    margin-right: 20%;
+}
+
+.col-3 h1 {
+    font-size: 80px;
+    color: black;
+    margin-top: 120px;
+}
+
+.col-3 img {
+    margin-top: 80px;
+    margin-left: 80%;
+    min-width: 50px;
+    min-height: 30px;
+    height: 20em;
+}
+
+
+.smallcontainer {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+.col-4 {
+    max-height: 50%;
+    border-radius: circle;
+    background-color: #ff523b;
+
+}
+
+.col-4 h1 {
+    font-size: 80px;
+    color: black;
+    margin-bottom: 23px;
+}
+
+
+.qualificationContainer {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.qualiCard {
+    height: 60vh;
+    width: 25vw;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.skillContainer {
+    display: flex;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.skills,
+.skillImage {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.skill {
+    display: flex;
+    padding: 1em 0;
+}
+
+.skillName {
+    width: 200px;
+}
+
+.skillBar {
+    display: flex;
+    align-items: center;
+}
+
+.bar {
+    width: 265px;
+    height: 5px;
+    background-color: blueviolet;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.hobbiesList li{
+    margin:10px 0 10px 10px;
+}
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 40px;
+}
+.footer ul{
+    left: 10px;
+}
+.footer ul li{
+    left: 0;
+    padding:  0;
+    margin: 10px;
+}
